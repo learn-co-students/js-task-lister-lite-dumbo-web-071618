@@ -1,6 +1,7 @@
 class Task {
-  constructor(description){
+  constructor(description, priority){
     this.description = description
+    this.priority = priority
   }
 
   myLi(task){
