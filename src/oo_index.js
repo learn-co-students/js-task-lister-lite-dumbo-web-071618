@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let input = document.getElementById('new-task-description');
     const task = new Task(input.value);
     let tasks = document.getElementById("tasks")
-    console.log(task)
     tasks.append(task.myLi(task.description))
+    form.reset()
   }  )
 });
